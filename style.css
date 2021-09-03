@@ -11,6 +11,12 @@ body{
     background-color: rgb(230,230,230);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
 header{
     width: 100%;
     display: flex;
@@ -135,12 +141,15 @@ img{
   }
 
   .toggle{
-      width: 180px;
+      width: 200px;
       display: flex;
       justify-content: space-evenly;
-
+      margin-top: 10px;
   }
 
   i{
       font-size: 1.8rem;
   }
+
+
+  
