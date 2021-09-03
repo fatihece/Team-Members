@@ -10,13 +10,14 @@ body{
     margin: auto;
     background-color: rgb(230,230,230);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s ease;
 }
 
 .dark-mode {
     background-color: black;
     color: white;
   }
-  
+
 header{
     width: 100%;
     display: flex;
